@@ -19,7 +19,7 @@ for link in soup.find_all('a'):
     print(link.get('href'))
     
 print(f'''
-Heading:: {heading}
+Headings:: {heading}
 Sidebar Links:: {sidebar_links}
 Headline:: {headline}
 ''')
